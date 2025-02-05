@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>*/* esta forma de darle de estilo sin usar css, se separa por cada seccion para darle estilos (este es un comentario en css) */
+
+        .title{
+            color: green;
+            font-size: 13pt;
+            
+        
+        }
+
+        .title-skills{
+            color: green;
+            font-size: 13pt;
+        }
+        .education-title{
+            color: green;
+            font: size 15pt;
+        }
+        .college{
+            color: blue;
+        }
+        .experience{
+            color: green;
+        }
+        .company-name{
+            color: blue;
+        }
+        .company-name-2{
+            color: blue;
+        }
+        body{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .contenedor{
+
+            width: 100vw;
+            max-width: 600px;
+            height: auto;
+            min-height: 300px;
+            border: 2px solid black;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">    <section class="quien"> <!-- class me sirve para darle una referencia en la hoja de estilos a una seccion para luego estilizar (esto es un comentario en HTML)-->
+        <hr style="width: 350px; background-color: black; height: 1pt;">
+        <h1 >Diego Miranda</h1>
+        <strong class="title">Junior Frontend Developer</strong>
+        <section class="datos-personales">
+            <p>Calle C, 797
+            <br>Colina, Región Metropolitana
+            <br>(56) 9 49915217
+            <br>2209miranda@gmail.com</p>
+        </section>
+    </section>
+    <section class="skills">
+        <strong class="title-skills">Skills</strong>
+        <p>HTML, CSS, JavaScript, Data analysis, Technical writing, C, Python</p>
+    </section>
+    <section class="education">
+        <strong class="education-title">Education</strong>
+        <p class="college">Universidad de Santiago de Chile, Chile</p>
+        <p>Ingeniería Civil Telemática
+        <br>Finance Secretary at Usach Fedeartion of Students</p>
+    </section>
+    <section >
+        <strong class="experience">Experience</strong>
+        <p class="company-name">Company Name, Location - Job Title</p>
+        <p>Month 20xx to Month 20xx</p>
+        <nav>
+            <ul>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+            </ul>
+        </nav>
+        <p>Skills: List of skills used or gained at this company</p>
+
+    </section>
+    <section >
+        <p class="company-name-2">Company Name, Location - Job Title</p>
+        <p>Month 20xx to Month 20xx</p>
+        <nav>
+            <ul>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+            </ul>
+        </nav>
+        <p>Skills: List of skills used or gained at this company</p>
+
+    </section>
+    <section class="across-internet">
+        <strong style="color: Green;">Across the Internet</strong><!-- esta es la forma de darle estilo a una pequeña seccion sin usar seccion de estilos o una hoja aparte-->
+        <br><a href="https://github.com/zar-diego">zar-diego en GitHub</a>
+    </section></div>
+
+</body>
+</html>
